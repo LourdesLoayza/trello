@@ -1,0 +1,99 @@
+/* General styles */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Allerta', sans-serif;
+    line-height: 1.5em;
+}
+
+body{
+    background: #0079bf
+}
+  
+/* Header styles */
+
+.up-style{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: #0067a3;
+    font-size: 3em;
+    color: #ffffff;
+}
+
+/* Section general styles */
+
+.container{
+    width: 95%;
+    height: auto;
+    margin: auto;
+    padding: 1em 2em;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.sub-container{
+    width: 35;
+    display: inline-block;
+    margin: 1em 0; 
+    padding: 1em;
+    box-sizing: border-box;
+    background: #ffffff
+}
+
+/* Hide span style */
+
+#new-list{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 10em;
+    height: 2em;
+    font-size: 1em; 
+    background-color: #1da1f2;
+    color: #ffffff
+} 
+
+/* Insert textArea style */
+
+textarea{  
+    overflow:hidden;
+    width: 95%;
+    margin: 1em auto;
+}
+
+
+
+/* ---------------------------------------- */
+#string-size{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 5%;
+}
+
+#container-tweets{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.tweet{
+    text-align: justify;
+    width: 100%;
+    background-color: #ffffff;
+    display: inline-block;
+    margin: 1em 0 0 0;
+    box-sizing: border-box;
+    padding: 1em 2em;
+}
+
+.time{
+    text-align: justify;
+    width: 100%;
+    background-color: #ffffff;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0em 2em 1em;
+}
+
