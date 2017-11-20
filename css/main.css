@@ -26,74 +26,83 @@ body{
 
 .container{
     width: 95%;
-    height: auto;
-    margin: auto;
     padding: 1em 2em;
     box-sizing: border-box;
-    display: inline-block;
 }
 
 .sub-container{
-    width: 35;
-    display: inline-block;
-    margin: 1em 0; 
-    padding: 1em;
+    width: 20%;
     box-sizing: border-box;
-    background: #ffffff
 }
 
 /* Hide span style */
 
+#btn-new-list{
+    box-sizing: border-box;
+    width: 5em;
+    height: 1.5em;
+    font-size: 0.8em; 
+    background-color: #5aac44;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.3em;
+} 
+
 #new-list{
     box-sizing: border-box;
-    display: inline-block;
-    width: 10em;
+    width: 15em;
     height: 2em;
     font-size: 1em; 
-    background-color: #1da1f2;
-    color: #ffffff
+    background-color: #06598a;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.3em;
+    padding-left: 1em;
+    text-align: left
 } 
+
+#new-list:hover{
+    background-color: #094a70;
+    color: #ffffff;
+}
+
 
 /* Insert textArea style */
 
 textarea{  
-    overflow:hidden;
-    width: 95%;
-    margin: 1em auto;
-}
-
-
-
-/* ---------------------------------------- */
-#string-size{
-    box-sizing: border-box;
-    display: inline-block;
-    width: 5%;
-}
-
-#container-tweets{
     width: 100%;
-    height: auto;
-    box-sizing: border-box;
-    display: inline-block;
+    border-radius: 0.3em;
+    background: #d7d8da;
 }
 
-.tweet{
-    text-align: justify;
-    width: 100%;
-    background-color: #ffffff;
-    display: inline-block;
-    margin: 1em 0 0 0;
-    box-sizing: border-box;
-    padding: 1em 2em;
+/* Insert cointainers styles */
+
+#container-list-one{
+    width: 20%;
+    padding: 0.5em;
+    /* box-sizing: border-box; */
+    display: inline-block
 }
 
-.time{
-    text-align: justify;
-    width: 100%;
-    background-color: #ffffff;
-    display: inline-block;
+#container-list-two{
+    width: 20%;
+    padding: 0.5em;
     box-sizing: border-box;
-    padding: 0em 2em 1em;
+    margin: 0.5em;
+    display: inline-block
 }
+
+/* Insert subList style */
+
+#new-sub-task{
+    /* box-sizing: border-box; */
+    width: 100%;
+    margin: 0.5em;
+    height: 1.5em;
+    font-size: 0.8em; 
+    background-color:#e2e4e6;
+    list-style: none;
+    color: #59595a;
+    text-align: left
+} 
 
